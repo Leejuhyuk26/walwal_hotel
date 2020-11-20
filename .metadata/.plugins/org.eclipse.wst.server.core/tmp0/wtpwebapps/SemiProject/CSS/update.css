@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.conA h1{
+	text-align: center;
+	font-size: 40px;	
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.conB{
+	font-size: 25px;
+}
+
+div.container{
+	margin-bottom: 150px;
+}
+input[type="text"]{
+	width: 360px;
+	height: 50px;
+	font-size:25px;
+}
+
+input[type="radio"]{
+	margin: 20px;	
+}
+
+input[type="submit"]{
+	background-color: #FEC034;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	border:none;
+	border-radius: 12px;
+	float:right;
+}
+input[type="submit"]:hover{
+	    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.4)
+    );
+}
+
+.containerH {
+	text-align: right;
+}
+
+.containerH button{
+	background-color: #FEC034;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	border:none;
+	border-radius: 12px;
+	margin-bottom: 80px;
+	margin-left: -5px;
+	margin-right: 10px;
+}
+.btnA button{
+	background-color: #FEC034;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	border:none;
+	border-radius: 12px;
+	margin-bottom:5px;
+}
+button:hover{
+	    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.4)
+    );
+    cursor: pointer;
+}
+.btnB button{
+	background-color: #FEC034;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	border:none;
+	border-radius: 12px;
+	margin-bottom:80px;
+}
+button:hover{
+	    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.4)
+    );
+    cursor: pointer;
+}

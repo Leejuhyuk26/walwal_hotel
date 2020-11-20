@@ -1,0 +1,143 @@
+/* mypage css */
+@charset "UTF-8";
+
+/* 기본 색상 */
+:root {
+	--main-color:#FEC034;
+	--text-color: #555555;
+	--sub-text-color: #999999;
+	
+}
+
+/* 컨텐츠 A */
+.conA .container {
+	padding-top: 200px;
+}
+
+.announce {
+	font-size: 30px;
+	text-align: center;
+	color: var(--text-color);
+}
+
+/* 컨텐츠 B */
+.conB .container {
+	padding-top: 60px;
+}
+
+/* 컨텐츠 C */
+.conC .container {
+	padding-top: 60px;
+	padding-bottom:120px;
+}
+.conC h3 {
+	text-align: center;
+	font-size: 45px;
+	color: var(--text-color);
+}
+.conC h2 {
+	text-align: center;
+	font-size: 40px;
+	color: var(--text-color);
+}
+
+.conC i {
+	color: var(--main-color);	
+}
+
+
+table{
+	width:100%
+}
+
+table,th,td{
+	border : 1px solid var(--sub-text-color);
+	border-collapse : collapse;
+	margin : 10px;
+	padding : 10px;
+	text-align: center;
+	
+}
+
+
+/*---------------------------예약 정보 css---------------------------*/
+
+#akak:hover{
+	cursor: pointer;
+}
+
+
+/* 이호인-----------------------*/
+.btnA {
+	background-color: white;
+}
+
+div.pageBt {
+	text-align: center;
+}
+
+button.pageBtn {
+	font-size: 25px;
+	padding: 10px;
+	border: none;
+}
+
+button.pageBtn1 {
+	font-size: 25px;
+	padding: 10px;
+	background-color: #FEC034;
+	border: none;
+}
+
+button.nextBtn {
+	font-size: 25px;
+	padding: 10px;
+	border: none;
+}
+
+button.backBtn {
+	font-size: 25px;
+	padding: 10px;
+	border: none;
+}
+
+.conA h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.btnA .container {
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 80px;
+}
+
+.btnA button {
+	background-color: #FEC034;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	border: none;
+	border-radius: 12px;
+	margin-left: 78%;
+}
+
+button:hover {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.4),
+		rgba(255, 255, 255, 0.4));
+	cursor: pointer;
+}
+
+#cashbtn {
+	color: #fff;
+	background-color: var(--main-color);
+	border: 0;
+	height: 40px;
+	width: 200px;
+}
+
+#cashbtn :hover {
+	background-color:#fa6e3e;
+}

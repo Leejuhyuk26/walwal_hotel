@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\gbdld\Dropbox\JB10\SemiProject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+254865331.index
+2632890004.index
+41024816.index
+4191636429.index
+2346471068.index
+3395435654.index

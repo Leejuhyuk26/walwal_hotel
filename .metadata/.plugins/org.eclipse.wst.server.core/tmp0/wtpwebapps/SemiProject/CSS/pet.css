@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 기본 색상 */
+:root {
+	--main-color:#FEC034;
+	--text-color: #555555;
+	--sub-text-color: #999999;
+	--footer-color:#333333;
+}
+
+table {
+	width: 100%
+}
+
+table,th,td{
+	border : 1px solid var(--sub-text-color);
+	border-collapse : collapse;
+	margin : 10px;
+	padding : 10px;
+}
+
+/* 컨텐츠 A */
+.conA .container {
+	padding-top: 200px;
+}
+
+.announce {
+	font-size: 30px;
+	text-align: center;
+	color: var(--text-color);
+}
+
+/* 컨텐츠 B */
+.conB .container {
+	padding-top: 60px;
+}
+
+/* 컨텐츠 C */
+.conC .container {
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+.conC h3 {
+	text-align: center;
+	font-size: 30px;
+	color: var(--text-color);
+}
+
+.conC form {
+	margin-top: 30px;
+	text-align: center;
+}
+.conC p {
+	color: var(--text-color);
+	font-size: 24px;
+	padding: 7px;
+}
+
+.conC .text {
+	border : 1px solid #ced4da;
+	font-size: 24px;
+	width: 30%;
+}
+
+.conC .btn {
+	margin-top: 15px;
+	margin-bottom: 40px;
+	color: #fff;
+	background-color: var(--main-color);
+	border: 0;
+	height: 40px;
+	width: 200px;
+}
+
+.conC .btn:hover {
+	cursor: pointer;
+	color: var(--text-color);	
+}
+
+th,td:hover{
+	cursor: pointer;
+}

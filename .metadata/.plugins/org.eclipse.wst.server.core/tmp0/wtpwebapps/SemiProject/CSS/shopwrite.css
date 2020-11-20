@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.conA h1{
+	text-align: center;
+	font-size: 40px;	
+}
+.conB{
+	font-size: 25px;
+}
+input[type="text"]{
+	width: 360px;
+	height: 50px;
+	font-size:25px;
+}
+
+input[type="number"]{
+	width: 360px;
+	height: 50px;
+	font-size:25px;
+}
+
+
+.btnA button{
+	background-color: #FEC034;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	border:none;
+	border-radius: 12px;
+	margin-left: 77.6%;
+	margin-bottom: 80px;
+	color: #fff;
+}
+button:hover{
+    background: #fa6e3e;
+	cursor: pointer;
+}
+
+input[type="text"]{
+    border : 2px solid black;
+    border-radius : 5px;
+}
+input[type="number"]{
+    border : 2px solid black;
+    border-radius : 5px;
+}
+
+input[type="submit"]{
+	background-color: #FEC034;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	border:none;
+	border-radius: 12px;
+	margin-left: 85%;
+	color: #fff;
+}
+input[type="submit"]:hover{
+    background: #fa6e3e;
+	cursor: pointer;
+}

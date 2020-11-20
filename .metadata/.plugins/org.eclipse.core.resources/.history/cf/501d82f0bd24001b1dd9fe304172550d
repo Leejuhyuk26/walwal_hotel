@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<%
+	String code = request.getParameter("code");
+	String client_id = "CMe7W7NRzfNAZtUHEnp5";
+	String client_secret = "MBDo9OqSsq";
+%>
+<body>
+<h2>CallBack Page입니덩</h2>
+<h1><%=code %></h1>
+</body>
+</html>

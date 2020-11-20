@@ -1,0 +1,8 @@
+127.0.0.1 - - [17/Nov/2020:15:43:44 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:15:43:50 +0900] "GET /SemiProject/login.jsp HTTP/1.1" 200 6308
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:15:43:50 +0900] "GET /SemiProject/style.css HTTP/1.1" 200 2943
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:15:43:50 +0900] "GET /SemiProject/CSS/index.css HTTP/1.1" 200 3982
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:15:43:50 +0900] "GET /SemiProject/CSS/login.css HTTP/1.1" 200 2033
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:15:43:50 +0900] "GET /SemiProject/JS/header.js HTTP/1.1" 200 323
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:15:43:50 +0900] "GET /SemiProject/JS/index.js HTTP/1.1" 200 296
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:15:43:50 +0900] "GET /SemiProject/JS/login.js HTTP/1.1" 200 484

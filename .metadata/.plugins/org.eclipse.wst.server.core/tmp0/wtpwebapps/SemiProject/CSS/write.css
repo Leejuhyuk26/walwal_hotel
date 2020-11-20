@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.conA h1{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 100px;	
+}
+.conB{
+	font-size: 25px;
+}
+
+div.container{
+	margin-bottom: 150px;
+}
+
+input[type="text"]{
+	width: 360px;
+	height: 50px;
+	font-size:25px;
+}
+
+input[type="radio"]{
+	margin: 20px;	
+}
+.containerG button{
+	background-color: #FEC034;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	border:none;
+	border-radius: 12px;
+	margin-bottom: 80px;
+	margin-right: 10px;
+}
+
+div.containerG{
+	text-align: right;
+}
+button:hover{
+    background: #fa6e3e;
+	cursor: pointer;
+}
+
+input[type="submit"].akk{
+	background-color: #FEC034;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	border:none;
+	border-radius: 12px;
+	float:right;
+	color: #fff;
+}
+input[type="submit"]:hover{
+    background: #fa6e3e;
+	cursor: pointer;
+}

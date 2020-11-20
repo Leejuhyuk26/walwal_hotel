@@ -1,0 +1,149 @@
+/* 이용안내 페이지 css */
+@charset "UTF-8";
+
+/* 기본 색상 */
+:root {
+	--main-color: #FEC034; 
+	--text-color: #555555;
+	--sub-text-color: #999999;
+}
+
+div.containerZ{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+table {
+	width: 80%;
+}
+
+
+table, td {
+	border: 0.5px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: 10%;
+	border-left-style: none;
+	border-right-style: none;
+	padding: 20px;
+}
+
+th.tbwid_15 {
+	border: 0.5px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: 10%;
+	border-left-style: none;
+	border-right-style: none;
+	padding: 10px;
+	background-color: #FEC034;
+	width: 15%;
+}
+
+th.tbwid_35 {
+	border: 0.5px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: 10%;
+	border-left-style: none;
+	border-right-style: none;
+	padding: 10px;
+	background-color: #FEC034;
+	width: 35%;
+}
+
+/* 이호인-----------------------*/
+a#akak {
+	text-decoration: none;
+}
+
+a#akak:link { /* 기본상태 스타일 */
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a#akak:visited { /* 방문한 상태 스타일 */
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a#akak:hover { /* 마우스가 올라간 상태 스타일 */
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a#akak:active { /* 마우스가 눌린 상태 스타일 */
+	color: blue;
+	background-color: transparent;
+	text-decoration: underline;
+}
+/* 이호인-----------------------*/
+.btnA {
+	background-color: white;
+}
+div.pageBt {
+	text-align: center;
+}
+
+button.pageBtn {
+	font-size: 25px;
+	padding: 10px;
+	border: none;
+}
+
+button.pageBtn1 {
+	font-size: 25px;
+	padding: 10px;
+	background-color: #FEC034;
+	border: none;
+}
+
+button.nextBtn {
+	font-size: 25px;
+	padding: 10px;
+	border: none;
+}
+
+button.backBtn {
+	font-size: 25px;
+	padding: 10px;
+	border: none;
+}
+.conA h1 {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 100px;
+}
+
+.btnA .containerF {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 80px;
+	text-align: right;
+}
+
+.btnA button {
+	background-color: #FEC034;
+	color: #fff;
+	width: 180px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	border: none;
+	border-radius: 12px;
+}
+
+div.search{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+button:hover {
+    background: #fa6e3e;
+	cursor: pointer;
+}
+/*style="font-size: 20px;  padding:10px 10px; float: right;"*/

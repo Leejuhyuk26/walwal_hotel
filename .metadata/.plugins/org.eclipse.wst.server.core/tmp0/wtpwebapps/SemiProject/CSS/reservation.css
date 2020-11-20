@@ -1,0 +1,214 @@
+/*reservation.jsp에 적용할 css*/
+
+@charset "UTF-8";
+
+header {
+	background-color: #FEC034;
+	height: 100px;
+}
+
+
+table, th, td{
+	border : 1px solid black; 
+	border-collapse : collapse; /*border의 간격 붙이기*/
+	margin : 10px;
+	padding : 10px;
+	
+	/*두께, 선종류, 선색상을 table, th, td에 적용하겠다.
+	가장 바깥에 있는것은 table
+	내부에 있는 테두리는 td
+	*/
+}
+
+
+/*안내 메세지 있는 콘텐츠*/
+.conA {
+	background-color: white;
+}
+
+.conA .container {
+	margin: 160px 200px 10px 200px;
+	min-width:60px;
+}
+
+#start{
+	margin-top : 20px;
+	text-align: center;
+	font-size:20px;
+}
+
+/*안내문과 폼*/
+.conB {
+	background-color: white;
+}
+
+.conB .container2 {
+	padding-top: 80px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left:250px;
+}
+
+
+/*담고 있는 자식이 overflow가 날경우 같이 커지기 위해서 사용*/
+.container2{
+	overflow:auto;
+}
+
+/*왼쪽 정보를 제공하는 부분*/
+.menu1{
+	width:45%;
+	height: 160%;
+	float:left;
+	background-color:white;
+	margin :3px;
+}
+
+
+
+/*오른쪽 예약 정보를 입력하는 부분*/
+.menu2{
+	width:50%;
+	height: 150%;
+	float:left;
+	background-color:white;
+	margin : 3px;
+	margin-left:15px;
+}
+
+#tel, #time, #friend, #announce{
+    width: 100%;
+    float: left;
+    padding: 30px;
+}
+
+#tel h3, #time h3, #friend h3, #announce h3{
+    font-family:"seo";
+    font-size: 20px;
+    font-weight:600;
+    color: #333;
+    margin: 0 0 10px 80px;
+
+}
+
+#tel p, #time p, #friend p, #announce p{
+    font-family:"seo";
+    font-size: 16px;
+    color: #333;
+    margin : 0 0 0 80px;
+}
+
+#tel{
+	background-image:url(../img/phone.jpg);
+    background-repeat: no-repeat;
+    background-position: left 15px;
+    border-right: 1px solid #ccc;
+	
+}
+
+#time{
+	background-image:url(../img/time.jpg);
+    background-repeat: no-repeat;
+    background-position: left 15px;
+    border-right: 1px solid #ccc;
+	
+}
+
+#friend{
+	background-image:url(../img/friend.jpg);
+    background-repeat: no-repeat;
+    background-position: left 15px;
+    border-right: 1px solid #ccc;
+	
+}
+
+#announce{
+	background-image:url(../img/announce.jpg);
+    background-repeat: no-repeat;
+    background-position: left 15px;
+    border-right: 1px solid #ccc;
+	
+}
+
+/*-------------------------------------------------------------------------------------- */
+      textarea {
+      	margin-top : 30px;
+        width: 60%;
+        height: 30%;
+      }
+      
+      input, select{
+      	margin-top : 20px;
+      	width:60%;
+      	height: 40px;
+      	font-size:20px;
+      }
+      
+      .s_button{
+      	margin-top : 1px;	
+        width: 60%;
+        height: 40px;
+      	background-color:#FFC502;
+      }
+
+
+/*반응형 css-------------------------------------------------------------------------------------- */
+/*데스크탑 우선 큰 숫자부터 적용되도록 한다.*/
+/*중간 사이즈 구현할것*/
+
+
+/*1300미만 미만 부터 아래의 반응형 사이즈가 적용된다... 원래는 768이다..*/
+@media (max-width: 1300px ) {
+
+	.conA .container {
+		margin-left:-20px;
+		min-width:50%;
+	}
+	
+	#start{
+		min-width:100%;
+		font-size:20px;
+	}
+
+	
+	.conB .container2{
+		margin-left:20px;
+		font-size:10px;
+	}
+	
+	.conB .menu1{
+		min-width:100%;
+	}
+	
+	.conB .menu2{
+		min-width:100%;
+	}
+	
+	textarea {
+      	margin-top : 30px;
+        width: 95%;
+        height: 30%;
+      }
+      
+      input, select{
+      	margin-top : 20px;
+      	width:95%;
+      	height: 40px;
+      	font-size:20px;
+      }
+      
+      .s_button{
+      	margin-top : 1px;
+        width: 95%;
+        height: 40px;
+      	background-color:#FFC502;
+      }
+	
+	
+	#tel h3, #time h3, #friend h3, #announce h3{
+		min-width:100%;
+		font-size:10px;
+	}
+
+}

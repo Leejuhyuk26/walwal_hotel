@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 기본 색상 */
+:root {
+	--main-color:#FEC034;
+	--text-color: #555555;
+	--sub-text-color: #999999;
+	--footer-color:#333333;
+}
+
+/* 헤더 */
+header {
+	background-color: var(--main-color);
+	height: 100px;
+	z-index: 1;
+	position:fixed;
+	width: 100%;
+	top:0;
+}
+
+header .container {
+	padding-left: 80px;
+	padding-right: 160px;
+}
+
+/* 헤더 로고 */
+.headA {
+	float: left;
+	text-decoration: none;
+	display: block;
+	color: white;
+	margin: 10px 10px 10px 200px;
+	font-size: 60px;
+	z-index: 1;
+}
+
+/* 헤더 네비게이션 */
+.headN {
+	float: right;
+}
+/* 헤더 네비게이션 ul */
+.headN ul {
+	display: flex;
+	list-style: none;
+}
+
+
+/* 헤더 네비게이션 a */
+.mainmenu {
+	font-family: 'Jua', sans-serif;
+	text-decoration: none;
+	display: block;
+	margin: 40px 10px 10px 10px;
+	color: white;
+	font-size: 30px;
+}
+
+
+.headN a:hover {
+	color: var(--text-color);
+	cursor: pointer;
+}
+.submenulist {
+	border-top:12px solid var(--main-color);
+	position: absolute;
+	flex-direction: column;
+	background-color: white;
+	box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
+}
+.submenulist a {
+	width: 200px;
+	font-size: 20px;
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+.submenulist div {
+	height: 50px;
+	padding-left: 20px;
+	padding-right: 40px;
+}
+
+.submenulist :hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+    cursor: pointer;
+}
+
+/* 컨텐츠 */
+.conA {
+	background-color: white;
+}
+
+.conA .container {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.conB {
+	background-color: white;
+}
+
+.conB .container {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.conC {
+	background-color: white;
+}
+
+.conC .container {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+/* 컨텐츠에 따라 padding-top, bottom 은 설정, left, right 는 고정! */
+
+/* 푸터 */
+footer {
+	background-color: var(--footer-color);
+	height: 150px;
+	width: 100%;
+}
+	
+
+footer .container {
+	padding-top: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.footer_logo i {
+	float: left;
+	text-decoration: none;
+	display: block;
+	color: white;
+	margin: 10px 100px 10px 40px;
+	font-size: 80px;
+}
+
+.footer_main h4 {
+	color: var(--main-color);
+	font-size: 20px;
+}
+
+.footer_text {
+	color: white;
+}
+
+@media ( max-width : 767px) {
+	/* 모바일 */
+	/* 헤더 */
+	header .container  {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	/* 헤더 로고 */
+	.headA {
+		text-decoration: none;
+		color: white;
+		font-size: 100px;
+	}
+	.head-btn {
+		display: block;
+		border: none;
+		color: white;
+		font-size: 60px;
+		background-color: var(--main-color);
+	}
+	
+}
+
+@media (min-width: 768px) {
+
+    /* 피시 */
+    /* 헤더 메뉴버튼  */
+    .head-btn {
+        display: none;
+    }
+}
